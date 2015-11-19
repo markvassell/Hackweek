@@ -1,0 +1,21 @@
+{
+  "name": "ProjectRTC",
+  "version": "0.4.0",
+  "author": "John Gillis",
+  "description": "a webRTC live streaming server",
+  "scripts": {
+    "start": "pm2 start app.js",
+    "stop": "pm2 stop all"
+  },
+  "repository": {
+    "type": "git", 
+    "url": "https://bitbucket.org/panaceacloud/webrtc-server.git"
+  },
+  "dependencies": {
+    "express": "3.2.5",
+    "ejs": "2.3.2",
+    "socket.io": "~0.9",
+    "pm2": "0.14.7",
+    "connect": "2.x"
+  }
+}
